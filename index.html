@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Douglas Kiprono">
+    <meta name="keywords" content="calculator, javascript, es6, eval,Douglas ,kiprono, github">
+    <meta name="description"
+        content="a mathematical calculator made designed with javascript, css (grid,flex) and html">
+    <title>javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="screen" placeholder="0">
+            <button class="op" onclick="calc('*')">x</button>
+            <button class="op" onclick="calc('%')">%</button>
+            <button class="op" onclick="calc('/')">/</button>
+            <button onclick="callDel()" id="del">DEL</button>
+            <button onclick="calc('1')">1</button>
+            <button onclick="calc('2')">2</button>
+            <button onclick="calc('3')">3</button>
+            <button class="op" onclick="calc('-')">-</button>
+            <button onclick="calc('4')">4</button>
+            <button onclick="calc('5')">5</button>
+            <button onclick="calc('6')">6</button>
+            <button class="op" onclick="calc('+')">+</button>
+            <button onclick="calc('7')">7</button>
+            <button onclick="calc('8')">8</button>
+            <button onclick="calc('9')">9</button>
+            <button class="op" onclick="callClear('clear')">C</button>
+            <button onclick="calc('.')">.</button>
+            <button onclick="calc('0')">0</button>
+            <button onclick="callEqual()" id="equals">=</button>
+            <h5 id="credit"> &copy; <a href="https://wwww.douglas-kiprono.we.app" target="_blank">douglas</a></h5>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

@@ -9,13 +9,13 @@ Perform basic math operations
     <li> string, method and method / properties</li>
     <li> UI/UX Design</li>
 </ul>
-## Technologies used
+<h5> Technologies used</h5>
 <ul>
 <li> HTML 5 </li>
 <li> CSS3 - grid, flexbox </li>
 <li>VANILLA JAVASCRIPT </li>
 </ul>
-## code tracking
+<h5> code tracking</h5>
 <ul>
   <li>Git/ github</li>
 </ul>  
